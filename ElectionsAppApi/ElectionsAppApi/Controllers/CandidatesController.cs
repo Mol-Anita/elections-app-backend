@@ -15,6 +15,13 @@ public class CandidatesController : ControllerBase
         _candidateService = candidateService;
     }
 
+    // GET: api/candidates/test
+    [HttpGet("test")]
+    public ActionResult<string> Test()
+    {
+        return Ok("Candidates API is running!");
+    }
+
     // GET: api/candidates
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Candidate>>> GetCandidates()

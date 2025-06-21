@@ -155,10 +155,11 @@ C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\Election
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ElectionsAppApi.props
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ElectionsAppApi.props
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\Election.A7A1E5AA.Up2Date
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\ElectionsAppApi.dll
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\refint\ElectionsAppApi.dll
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\ElectionsAppApi.pdb
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\ElectionsAppApi.genruntimeconfig.cache
 C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\ref\ElectionsAppApi.dll
+C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\ElectionsAppApi.sourcelink.json
+C:\Users\Anita\Year2Sem2\MPP exam\elections-app-backend\ElectionsAppApi\ElectionsAppApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\repositories\\inmemorycandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|solutionrelative:electionsappapi\\repositories\\inmemorycandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\repositories\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|solutionrelative:electionsappapi\\repositories\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\websockets\\candidatewebsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|solutionrelative:electionsappapi\\websockets\\candidatewebsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|solutionrelative:electionsappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\repositories\\inmemorycandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|solutionrelative:electionsappapi\\repositories\\inmemorycandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\repositories\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|solutionrelative:electionsappapi\\repositories\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E837DE-0519-4945-9DDF-0FF565575872}|ElectionsAppApi\\ElectionsAppApi.csproj|c:\\users\\anita\\year2sem2\\mpp exam\\elections-app-backend\\electionsappapi\\electionsappapi\\repositories\\databasecandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 377,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,46 +66,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "CandidateWebSocketHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\WebSockets\\CandidateWebSocketHandler.cs",
+              "RelativeDocumentMoniker": "ElectionsAppApi\\WebSockets\\CandidateWebSocketHandler.cs",
+              "ToolTip": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\WebSockets\\CandidateWebSocketHandler.cs",
+              "RelativeToolTip": "ElectionsAppApi\\WebSockets\\CandidateWebSocketHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T10:04:28.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CandidatesController.cs",
               "DocumentMoniker": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Controllers\\CandidatesController.cs",
               "RelativeDocumentMoniker": "ElectionsAppApi\\Controllers\\CandidatesController.cs",
               "ToolTip": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Controllers\\CandidatesController.cs",
               "RelativeToolTip": "ElectionsAppApi\\Controllers\\CandidatesController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T09:13:28.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Program.cs",
               "RelativeDocumentMoniker": "ElectionsAppApi\\Program.cs",
               "ToolTip": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Program.cs",
               "RelativeToolTip": "ElectionsAppApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T09:13:18.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "InMemoryCandidateRepository.cs",
               "DocumentMoniker": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Repositories\\InMemoryCandidateRepository.cs",
               "RelativeDocumentMoniker": "ElectionsAppApi\\Repositories\\InMemoryCandidateRepository.cs",
               "ToolTip": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Repositories\\InMemoryCandidateRepository.cs",
               "RelativeToolTip": "ElectionsAppApi\\Repositories\\InMemoryCandidateRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T09:12:43.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ICandidateRepository.cs",
               "DocumentMoniker": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Repositories\\ICandidateRepository.cs",
               "RelativeDocumentMoniker": "ElectionsAppApi\\Repositories\\ICandidateRepository.cs",
@@ -109,12 +126,11 @@
               "RelativeToolTip": "ElectionsAppApi\\Repositories\\ICandidateRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T09:12:40.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T09:12:40.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DatabaseCandidateRepository.cs",
               "DocumentMoniker": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Repositories\\DatabaseCandidateRepository.cs",
               "RelativeDocumentMoniker": "ElectionsAppApi\\Repositories\\DatabaseCandidateRepository.cs",
@@ -122,12 +138,11 @@
               "RelativeToolTip": "ElectionsAppApi\\Repositories\\DatabaseCandidateRepository.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAAFIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T09:12:33.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T09:12:33.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Candidate.cs",
               "DocumentMoniker": "C:\\Users\\Anita\\Year2Sem2\\MPP exam\\elections-app-backend\\ElectionsAppApi\\ElectionsAppApi\\Models\\Candidate.cs",
               "RelativeDocumentMoniker": "ElectionsAppApi\\Models\\Candidate.cs",
@@ -135,8 +150,7 @@
               "RelativeToolTip": "ElectionsAppApi\\Models\\Candidate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T09:12:27.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T09:12:27.014Z"
             }
           ]
         }
