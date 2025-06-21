@@ -39,7 +39,11 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
+// Only use HTTPS redirection in development or when explicitly configured
+if (app.Environment.IsDevelopment() || Environment.GetEnvironmentVariable("FORCE_HTTPS") == "true")
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseCors("AllowAll");
 
@@ -53,7 +57,16 @@ app.MapGet("/", () => new
     message = "Elections App API is running",
     timestamp = DateTime.UtcNow,
     environment = app.Environment.EnvironmentName,
-    port = Environment.GetEnvironmentVariable("PORT") ?? "Unknown"
+    port = Environment.GetEnvironmentVariable("PORT") ?? "Unknown",
+    urls = builder.Configuration["ASPNETCORE_URLS"] ?? "Default"
+});
+
+// Add a simple health endpoint
+app.MapGet("/health", () => new
+{
+    status = "healthy",
+    timestamp = DateTime.UtcNow,
+    environment = app.Environment.EnvironmentName
 });
 
 // Map WebSocket endpoint
@@ -81,5 +94,6 @@ app.Map("/ws/candidates", async context =>
 Console.WriteLine($"Starting Elections App API in {app.Environment.EnvironmentName} environment");
 Console.WriteLine($"Port: {Environment.GetEnvironmentVariable("PORT") ?? "Not set"}");
 Console.WriteLine($"URLs: {string.Join(", ", builder.Configuration["ASPNETCORE_URLS"] ?? "Default")}");
+Console.WriteLine($"Application started successfully at {DateTime.UtcNow}");
 
 app.Run();
