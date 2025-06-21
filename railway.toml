@@ -18,11 +18,6 @@ ASPNETCORE_URLS = "http://0.0.0.0:$PORT"
 # CORS settings for production
 CORS_ALLOWED_ORIGINS = "*"
 
-# Logging configuration
-Logging__LogLevel__Default = "Information"
-Logging__LogLevel__Microsoft = "Warning"
-Logging__LogLevel__Microsoft.Hosting.Lifetime = "Information"
-
 # WebSocket configuration
 WEBSOCKET_ENABLED = "true"
 
