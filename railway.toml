@@ -3,8 +3,8 @@ builder = "nixpacks"
 
 [deploy]
 startCommand = "dotnet ElectionsAppApi.dll"
-healthcheckPath = "/health"
-healthcheckTimeout = 60
+# healthcheckPath = "/health"
+# healthcheckTimeout = 60
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 10
 
@@ -31,4 +31,7 @@ ASPNETCORE_Kestrel__Limits__MaxConcurrentUpgradedConnections = "100"
 # Debug settings
 ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS = "true"
 ASPNETCORE_LOGGING__LOGLEVEL__DEFAULT = "Information"
-ASPNETCORE_LOGGING__LOGLEVEL__MICROSOFT = "Information" 
+ASPNETCORE_LOGGING__LOGLEVEL__MICROSOFT = "Information"
+
+# Additional debugging
+ASPNETCORE_LOGGING__LOGLEVEL__MICROSOFT_ASPNETCORE = "Information" 

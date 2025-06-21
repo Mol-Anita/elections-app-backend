@@ -30,6 +30,12 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+// Log startup information early
+Console.WriteLine("=== Elections App API Starting ===");
+Console.WriteLine($"Environment: {app.Environment.EnvironmentName}");
+Console.WriteLine($"Port: {Environment.GetEnvironmentVariable("PORT") ?? "Not set"}");
+Console.WriteLine($"URLs: {string.Join(", ", builder.Configuration["ASPNETCORE_URLS"] ?? "Default")}");
+
 // Enable WebSockets
 app.UseWebSockets();
 
@@ -52,21 +58,34 @@ app.UseAuthorization();
 app.MapControllers();
 
 // Add a simple root endpoint for health checks
-app.MapGet("/", () => new
-{
-    message = "Elections App API is running",
-    timestamp = DateTime.UtcNow,
-    environment = app.Environment.EnvironmentName,
-    port = Environment.GetEnvironmentVariable("PORT") ?? "Unknown",
-    urls = builder.Configuration["ASPNETCORE_URLS"] ?? "Default"
+app.MapGet("/", () => {
+    Console.WriteLine("Root endpoint accessed");
+    return new
+    {
+        message = "Elections App API is running",
+        timestamp = DateTime.UtcNow,
+        environment = app.Environment.EnvironmentName,
+        port = Environment.GetEnvironmentVariable("PORT") ?? "Unknown",
+        urls = builder.Configuration["ASPNETCORE_URLS"] ?? "Default"
+    };
 });
 
 // Add a simple health endpoint
-app.MapGet("/health", () => new
-{
-    status = "healthy",
-    timestamp = DateTime.UtcNow,
-    environment = app.Environment.EnvironmentName
+app.MapGet("/health", () => {
+    Console.WriteLine("Health endpoint accessed");
+    return new
+    {
+        status = "healthy",
+        timestamp = DateTime.UtcNow,
+        environment = app.Environment.EnvironmentName,
+        port = Environment.GetEnvironmentVariable("PORT") ?? "Unknown"
+    };
+});
+
+// Add a simple test endpoint
+app.MapGet("/test", () => {
+    Console.WriteLine("Test endpoint accessed");
+    return "API is working!";
 });
 
 // Map WebSocket endpoint
@@ -90,10 +109,7 @@ app.Map("/ws/candidates", async context =>
     }
 });
 
-// Log startup information
-Console.WriteLine($"Starting Elections App API in {app.Environment.EnvironmentName} environment");
-Console.WriteLine($"Port: {Environment.GetEnvironmentVariable("PORT") ?? "Not set"}");
-Console.WriteLine($"URLs: {string.Join(", ", builder.Configuration["ASPNETCORE_URLS"] ?? "Default")}");
+Console.WriteLine("=== Application configured, starting... ===");
 Console.WriteLine($"Application started successfully at {DateTime.UtcNow}");
 
 app.Run();
