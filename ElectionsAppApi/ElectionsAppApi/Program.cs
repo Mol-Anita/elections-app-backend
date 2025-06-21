@@ -47,6 +47,15 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// Add a simple root endpoint for health checks
+app.MapGet("/", () => new
+{
+    message = "Elections App API is running",
+    timestamp = DateTime.UtcNow,
+    environment = app.Environment.EnvironmentName,
+    port = Environment.GetEnvironmentVariable("PORT") ?? "Unknown"
+});
+
 // Map WebSocket endpoint
 app.Map("/ws/candidates", async context =>
 {
@@ -67,5 +76,10 @@ app.Map("/ws/candidates", async context =>
         context.Response.StatusCode = 400;
     }
 });
+
+// Log startup information
+Console.WriteLine($"Starting Elections App API in {app.Environment.EnvironmentName} environment");
+Console.WriteLine($"Port: {Environment.GetEnvironmentVariable("PORT") ?? "Not set"}");
+Console.WriteLine($"URLs: {string.Join(", ", builder.Configuration["ASPNETCORE_URLS"] ?? "Default")}");
 
 app.Run();
