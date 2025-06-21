@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "URwWcKP+ZIlg4zcjgTgxJRjWChSLzdu4/KF/8MAEnw8=",
+  "Source": "ElectionsAppApi",
+  "BasePath": "_content/ElectionsAppApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

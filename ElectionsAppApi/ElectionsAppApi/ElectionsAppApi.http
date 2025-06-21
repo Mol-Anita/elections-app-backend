@@ -1,0 +1,6 @@
+@ElectionsAppApi_HostAddress = http://localhost:5107
+
+GET {{ElectionsAppApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
