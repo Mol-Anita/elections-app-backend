@@ -2,7 +2,7 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "dotnet ./ElectionsAppApi/ElectionsAppApi.dll"
+startCommand = "dotnet ElectionsAppApi.dll"
 healthcheckPath = "/health"
 healthcheckTimeout = 300
 restartPolicyType = "on_failure"

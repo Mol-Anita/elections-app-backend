@@ -9,12 +9,12 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
 # Copy the project file and restore dependencies
-COPY ["ElectionsAppApi/ElectionsAppApi.csproj", "ElectionsAppApi/"]
-RUN dotnet restore "ElectionsAppApi/ElectionsAppApi.csproj"
+COPY ["ElectionsAppApi/ElectionsAppApi/ElectionsAppApi.csproj", "ElectionsAppApi/ElectionsAppApi/"]
+RUN dotnet restore "ElectionsAppApi/ElectionsAppApi/ElectionsAppApi.csproj"
 
 # Copy the rest of the source code
 COPY . .
-WORKDIR "/src/ElectionsAppApi"
+WORKDIR "/src/ElectionsAppApi/ElectionsAppApi"
 
 # Build the application
 RUN dotnet build "ElectionsAppApi.csproj" -c Release -o /app/build
