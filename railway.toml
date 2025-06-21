@@ -1,0 +1,34 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "dotnet ElectionsAppApi.dll"
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
+
+[deploy.envs]
+ASPNETCORE_ENVIRONMENT = "Production"
+ASPNETCORE_URLS = "http://0.0.0.0:$PORT"
+
+# Database configuration (if using external database)
+# DATABASE_CONNECTION_STRING = "your-database-connection-string"
+
+# CORS settings for production
+CORS_ALLOWED_ORIGINS = "*"
+
+# Logging configuration
+Logging__LogLevel__Default = "Information"
+Logging__LogLevel__Microsoft = "Warning"
+Logging__LogLevel__Microsoft.Hosting.Lifetime = "Information"
+
+# WebSocket configuration
+WEBSOCKET_ENABLED = "true"
+
+# Security headers
+ASPNETCORE_FORWARDEDHEADERS_ENABLED = "true"
+
+# Performance settings
+ASPNETCORE_Kestrel__Limits__MaxConcurrentConnections = "100"
+ASPNETCORE_Kestrel__Limits__MaxConcurrentUpgradedConnections = "100" 
