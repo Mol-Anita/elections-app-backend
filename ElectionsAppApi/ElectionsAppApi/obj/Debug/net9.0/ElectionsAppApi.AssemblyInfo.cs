@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElectionsAppApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be611363d95439ddc6e200c5eaba6052853d4368")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+641301f3bc108e61e0df18988ee5915020415389")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElectionsAppApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElectionsAppApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
